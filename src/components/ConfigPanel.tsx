@@ -87,8 +87,9 @@ export function ConfigPanel({ config, onChange, onGenerate, loading }: ConfigPan
               onChange={(e) => updateConfig({ model: e.target.value as any })}
               className="w-full px-4 py-2.5 bg-[#2A2A2A] border border-red-500/30 rounded-xl text-white focus:ring-2 focus:ring-red-500 focus:border-transparent transition-all duration-200"
             >
-              <option value="deepseek-r1">DeepSeek R1 (Recommended)</option>
-              <option value="gemini-2.0">Gemini 2.0</option>
+              <option value="gemini-2.0">Gemini 2.0 (Recommended)</option>
+              <option value="deepseek-r1">DeepSeek R1</option>
+              
             </select>
           </div>
 
