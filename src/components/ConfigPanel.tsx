@@ -89,7 +89,6 @@ export function ConfigPanel({ config, onChange, onGenerate, loading }: ConfigPan
             >
               <option value="gemini-2.0">Gemini 2.0 (Recommended)</option>
               <option value="deepseek-r1">DeepSeek R1</option>
-              
             </select>
           </div>
 
